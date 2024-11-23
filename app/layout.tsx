@@ -33,6 +33,8 @@ export default function RootLayout({
           <ul className="flex gap-6">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">about</Link></li>
+            <li><Link href="/product/123/">product</Link></li>
+
           </ul>
         </nav>
         {/* The children prop is a special prop in React that allows you to pass JSX elements as a prop to a component. This is useful when you want to render some content inside a component, but you don't want to hard-code the content inside the component. Instead, you can pass the content as a prop to the component. */}
